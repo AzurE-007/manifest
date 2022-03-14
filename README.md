@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/ProjectRadiant/manifest -b twelve
+repo init -u https://github.com/ProjectRadiant/manifest -b twelve-L
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags -v
